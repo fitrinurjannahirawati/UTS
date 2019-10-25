@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0DFF5"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="288dp"
+        android:layout_height="239dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="282dp"
+        app:srcCompat="@drawable/bismillah" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="252dp"
+        android:text="MULAI"
+        android:textStyle="bold"
+        app:layout_constrainBottom_toBottomOf="parent"
+        app:layout_constrainEnd_toEndOf="parent"
+        app:layout_constrainHorizontal_bias="1.0"
+        app:layout_constrainStart_toStartOf="parent"
+        app:layout_constrainTop_toTopOf="@+id/imageView2"
+        app:layout_constrainVertical_bias="1.0"
+        />
+
+
+</LinearLayout>
